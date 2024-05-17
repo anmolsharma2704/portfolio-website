@@ -23,7 +23,7 @@ This repository contains the source code for my personal portfolio website, show
 
 ## Deployment
 
-The website is deployed using Netlify and is accessible at [https://your-portfolio-website-url.com](https://your-portfolio-website-url.com).
+The website is deployed using Netlify and is accessible at [https://anmol-sharma.netlify.app/].
 
 ## How to Use
 
