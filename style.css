@@ -61,11 +61,11 @@ body {
     width: 100%;
     border-radius: 10px;
 }
-
-#about p {
-    font-size: 16px;
+#about p ,li {
+    font-size: 1rem;
     line-height: 1.8;
-    color: #333;
+    color: #000000;
+    font-size: larger;
 }
 
 #about ul {
@@ -76,6 +76,40 @@ body {
 #about ul li {
     margin-bottom: 10px;
 }
+
+/* Skills */
+/* CSS for Technical Skills section */
+#skills {
+    padding: 60px 0; /* Add padding */
+}
+
+#skills h3 {
+   margin-bottom: 1rem;
+    
+}
+
+#skills ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+#skills ul li {
+    margin-bottom: 10px; /* Add some space between list items */
+    font-size: larger;
+    margin-left: 30px;
+}
+
+#skills .col-lg-6 {
+    margin-bottom: 30px; /* Add space between columns */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #skills .col-lg-6 {
+        width: 100%; /* Make columns full width on small screens */
+    }
+}
+
 
 /* Services Section */
 #services {
@@ -127,9 +161,14 @@ body {
 
 /* Colors */
 #about h1,
+#skills h1,
 #services h1,
+#portfolio h1,
+#contact h1,
 .servicesIcon {
     color: #28a745;
+    font-size: xx-large;
+    margin-bottom: 40px;
 }
 
 .card:hover .servicesIcon {
@@ -143,9 +182,7 @@ body {
 }
 
 #portfolio h1 {
-    font-size: 36px;
     margin-bottom: 40px;
-    color: #333;
 }
 
 .portfolioContent {
